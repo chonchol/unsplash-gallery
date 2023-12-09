@@ -28,7 +28,7 @@ export default {
         .then((response) => response.json())
         .then((json) => {
           this.topic = json;
-          // console.log(this.topic);
+          // console.log(this.topic); 
         })
         .catch((err) => {
           console.log("error", err);
